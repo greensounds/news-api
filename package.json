@@ -1,0 +1,21 @@
+{
+  "name": "web-scraping",
+  "version": "1.0.0",
+  "description": "Basic Scraping project",
+  "main": "index.js",
+  "engines": {
+    "node": "14.x"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Jesus Diaz",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "json2csv": "^5.0.1",
+    "mongoose": "^5.9.15",
+    "puppeteer": "^3.1.0"
+  }
+}
